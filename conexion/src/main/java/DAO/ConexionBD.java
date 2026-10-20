@@ -9,7 +9,7 @@ public class ConexionBD {
     protected Connection conexion;
     private final String url = "jdbc:sqlserver://localhost:1433;databaseName=Universidad;trustServerCertificate=true";
     private final String user = "sa";
-    private final String password = "Alumno123";
+    private final String password = "alumno";
     
     
     public void conectar () throws Exception{
